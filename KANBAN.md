@@ -61,6 +61,12 @@ Brak.
 
 ## Blokady
 
+Publikacja WG-016 zakończona 2026-10-13: publiczne repo https://github.com/MoviaQ/windup-gate,
+CI https://github.com/MoviaQ/windup-gate/actions/runs/38371098595 — sukces,
+CD https://github.com/MoviaQ/windup-gate/actions/runs/38371197908 — sukces.
+Wydanie próbne v0.1.0 zawiera automatycznie zbudowane wheel i sdist.
+Wcześniejsze adnotacje o oczekiwaniu na publikację są historyczne.
+
 - Brak rzeczywistych danych użytkownika. Przykłady demo są syntetyczne i służą uruchomieniu procesu.
 - Lokalna identyfikacja języka wymaga jawnego skonfigurowania źródeł i wag istniejącego detektora; setup w README.
 - Model demo nie spełnia docelowej jakości: macro-F1 0,6976, zaakceptowane 2/20, poprawne 1/2. Wysokie score może być błędne.
