@@ -1,0 +1,20 @@
+{"id": "demo-detect_language-08-0", "text": "Czy poniższy akapit jest francuski?", "label": "detect_language", "group_id": "demo-detect_language-08", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-detect_language-08-1", "text": "Sprawdź język akapitu: czy to francuski?", "label": "detect_language", "group_id": "demo-detect_language-08", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-detect_language-09-0", "text": "Ustal, czy napis jest niemiecki czy holenderski", "label": "detect_language", "group_id": "demo-detect_language-09", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-detect_language-09-1", "text": "Który to język: niemiecki czy holenderski?", "label": "detect_language", "group_id": "demo-detect_language-09", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-08-0", "text": "Przetlumacz podpis pod zdjęciem na czeski", "label": "translate", "group_id": "demo-translate-08", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-08-1", "text": "Tłumaczenie podpisu pod zdjęciem na czeski", "label": "translate", "group_id": "demo-translate-08", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-09-0", "text": "Zamień treść komunikatu z polskiego na portugalski", "label": "translate", "group_id": "demo-translate-09", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-09-1", "text": "Przełóż komunikat na portugalski", "label": "translate", "group_id": "demo-translate-09", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-08-0", "text": "Daj mi najważniejsze wnioski z transkrypcji", "label": "summarize", "group_id": "demo-summarize-08", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-08-1", "text": "Podsumuj transkrypcję w postaci wniosków", "label": "summarize", "group_id": "demo-summarize-08", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-09-0", "text": "Skompresuj opis wydarzeń do krótkiej notatki", "label": "summarize", "group_id": "demo-summarize-09", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-09-1", "text": "Streszczenie wydarzeń w krótkiej notatce poproszę", "label": "summarize", "group_id": "demo-summarize-09", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-08-0", "text": "Implementacja algorytmu sortowania zawiesza aplikację", "label": "code_help", "group_id": "demo-code_help-08", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-08-1", "text": "Zdebuguj sortowanie, które zawiesza aplikację", "label": "code_help", "group_id": "demo-code_help-08", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-09-0", "text": "Napisz parser plików CSV w Rust", "label": "code_help", "group_id": "demo-code_help-09", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-09-1", "text": "Jak zaimplementować odczyt CSV w Rust?", "label": "code_help", "group_id": "demo-code_help-09", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-08-0", "text": "Napisz wiersz o jesieni", "label": "other", "group_id": "demo-other-08", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-08-1", "text": "Stwórz krótki jesienny wiersz", "label": "other", "group_id": "demo-other-08", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-09-0", "text": "Wyjaśnij pojęcie entropii w fizyce", "label": "other", "group_id": "demo-other-09", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-09-1", "text": "Co oznacza entropia w termodynamice?", "label": "other", "group_id": "demo-other-09", "source": "synthetic-codex-demo-v1"}

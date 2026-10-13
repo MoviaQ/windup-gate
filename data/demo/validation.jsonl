@@ -1,0 +1,20 @@
+{"id": "demo-detect_language-06-0", "text": "Określ język listu od klienta", "label": "detect_language", "group_id": "demo-detect_language-06", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-detect_language-06-1", "text": "Język listu od klienta: jaki jest?", "label": "detect_language", "group_id": "demo-detect_language-06", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-detect_language-07-0", "text": "Rozpoznaj mowę pisaną w tej notatce", "label": "detect_language", "group_id": "demo-detect_language-07", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-detect_language-07-1", "text": "Do jakiego języka należy ta notatka?", "label": "detect_language", "group_id": "demo-detect_language-07", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-06-0", "text": "Zrób angielską wersję ogłoszenia", "label": "translate", "group_id": "demo-translate-06", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-06-1", "text": "Przetłumacz ogłoszenie na język angielski", "label": "translate", "group_id": "demo-translate-06", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-07-0", "text": "Chcę przeczytać po polsku tę włoską notatkę", "label": "translate", "group_id": "demo-translate-07", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-07-1", "text": "Przełóż włoską notatkę na język polski", "label": "translate", "group_id": "demo-translate-07", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-06-0", "text": "Przygotuj skrót rozdziału książki", "label": "summarize", "group_id": "demo-summarize-06", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-06-1", "text": "Streść rozdział książki w kilku punktach", "label": "summarize", "group_id": "demo-summarize-06", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-07-0", "text": "Za długi ten opis, skróć go", "label": "summarize", "group_id": "demo-summarize-07", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-07-1", "text": "Zwięźlej przedstaw ten długi opis", "label": "summarize", "group_id": "demo-summarize-07", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-06-0", "text": "Zapytanie SQL zwraca duplikaty, popraw je", "label": "code_help", "group_id": "demo-code_help-06", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-06-1", "text": "Znajdź przyczynę duplikatów w zapytaniu SQL", "label": "code_help", "group_id": "demo-code_help-06", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-07-0", "text": "Mam konflikt typów w TypeScript", "label": "code_help", "group_id": "demo-code_help-07", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-07-1", "text": "Rozwiąż błąd typowania w TypeScript", "label": "code_help", "group_id": "demo-code_help-07", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-06-0", "text": "Zrób to samo co wcześniej", "label": "other", "group_id": "demo-other-06", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-06-1", "text": "Powtórz poprzednią czynność", "label": "other", "group_id": "demo-other-06", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-07-0", "text": "Zarezerwuj stolik w restauracji", "label": "other", "group_id": "demo-other-07", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-07-1", "text": "Umów rezerwację na kolację", "label": "other", "group_id": "demo-other-07", "source": "synthetic-codex-demo-v1"}

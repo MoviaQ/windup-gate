@@ -1,0 +1,60 @@
+{"id": "demo-detect_language-00-0", "text": "Jaki to język?", "label": "detect_language", "group_id": "demo-detect_language-00", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-detect_language-00-1", "text": "Rozpoznaj język podanego tekstu", "label": "detect_language", "group_id": "demo-detect_language-00", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-detect_language-01-0", "text": "W jakim języku napisano tę wiadomość?", "label": "detect_language", "group_id": "demo-detect_language-01", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-detect_language-01-1", "text": "Podaj język tej wiadomości", "label": "detect_language", "group_id": "demo-detect_language-01", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-detect_language-02-0", "text": "Zidentyfikuj język załączonego fragmentu", "label": "detect_language", "group_id": "demo-detect_language-02", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-detect_language-02-1", "text": "Ustal język poniższego fragmentu", "label": "detect_language", "group_id": "demo-detect_language-02", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-detect_language-03-0", "text": "Czy ten tekst jest po polsku czy po czesku?", "label": "detect_language", "group_id": "demo-detect_language-03", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-detect_language-03-1", "text": "Sprawdź, czy tekst jest polski czy czeski", "label": "detect_language", "group_id": "demo-detect_language-03", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-detect_language-04-0", "text": "Wykryj język dokumentu", "label": "detect_language", "group_id": "demo-detect_language-04", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-detect_language-04-1", "text": "Powiedz, w jakim języku jest dokument", "label": "detect_language", "group_id": "demo-detect_language-04", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-detect_language-05-0", "text": "Potrzebuję kodu języka tego zdania", "label": "detect_language", "group_id": "demo-detect_language-05", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-detect_language-05-1", "text": "Zwróć oznaczenie języka dla tego zdania", "label": "detect_language", "group_id": "demo-detect_language-05", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-00-0", "text": "Przetłumacz wiadomość na angielski", "label": "translate", "group_id": "demo-translate-00", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-00-1", "text": "Proszę o tłumaczenie wiadomości na angielski", "label": "translate", "group_id": "demo-translate-00", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-01-0", "text": "Przełóż ten tekst na polski", "label": "translate", "group_id": "demo-translate-01", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-01-1", "text": "Zrób polskie tłumaczenie tego tekstu", "label": "translate", "group_id": "demo-translate-01", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-02-0", "text": "Potrzebuję tłumaczenia maila na niemiecki", "label": "translate", "group_id": "demo-translate-02", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-02-1", "text": "Przetłumacz maila na niemiecki", "label": "translate", "group_id": "demo-translate-02", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-03-0", "text": "Przetłumacz zdanie na francuski", "label": "translate", "group_id": "demo-translate-03", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-03-1", "text": "Podaj francuskie tłumaczenie zdania", "label": "translate", "group_id": "demo-translate-03", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-04-0", "text": "Przełóż instrukcję z japońskiego na polski", "label": "translate", "group_id": "demo-translate-04", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-04-1", "text": "Proszę przetłumaczyć instrukcję z japońskiego", "label": "translate", "group_id": "demo-translate-04", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-05-0", "text": "Tłumaczenie tego listu na hiszpański poproszę", "label": "translate", "group_id": "demo-translate-05", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-translate-05-1", "text": "Przetłumacz ten list na hiszpański", "label": "translate", "group_id": "demo-translate-05", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-00-0", "text": "Streść ten artykuł", "label": "summarize", "group_id": "demo-summarize-00", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-00-1", "text": "Przygotuj streszczenie artykułu", "label": "summarize", "group_id": "demo-summarize-00", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-01-0", "text": "Skróć tekst do trzech zdań", "label": "summarize", "group_id": "demo-summarize-01", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-01-1", "text": "Zrób krótkie streszczenie tekstu w trzech zdaniach", "label": "summarize", "group_id": "demo-summarize-01", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-02-0", "text": "Podsumuj najważniejsze ustalenia spotkania", "label": "summarize", "group_id": "demo-summarize-02", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-02-1", "text": "Przygotuj podsumowanie ustaleń ze spotkania", "label": "summarize", "group_id": "demo-summarize-02", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-03-0", "text": "Wypisz główne punkty raportu", "label": "summarize", "group_id": "demo-summarize-03", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-03-1", "text": "Streść raport w głównych punktach", "label": "summarize", "group_id": "demo-summarize-03", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-04-0", "text": "Zrób zwięzłe podsumowanie tej rozmowy", "label": "summarize", "group_id": "demo-summarize-04", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-04-1", "text": "Streść rozmowę bez rozwijania szczegółów", "label": "summarize", "group_id": "demo-summarize-04", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-05-0", "text": "Wyciągnij najważniejsze informacje z dokumentu", "label": "summarize", "group_id": "demo-summarize-05", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-summarize-05-1", "text": "Podsumowanie dokumentu z kluczowymi informacjami", "label": "summarize", "group_id": "demo-summarize-05", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-00-0", "text": "Wyjaśnij ten błąd Pythona", "label": "code_help", "group_id": "demo-code_help-00", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-00-1", "text": "Pomóż mi z wyjątkiem w kodzie Pythona", "label": "code_help", "group_id": "demo-code_help-00", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-01-0", "text": "Napraw funkcję, która zwraca zły wynik", "label": "code_help", "group_id": "demo-code_help-01", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-01-1", "text": "Znajdź błąd w tej funkcji", "label": "code_help", "group_id": "demo-code_help-01", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-02-0", "text": "Napisz test jednostkowy dla tego kodu", "label": "code_help", "group_id": "demo-code_help-02", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-02-1", "text": "Dodaj testy do funkcji", "label": "code_help", "group_id": "demo-code_help-02", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-03-0", "text": "Co robi ta pętla w programie?", "label": "code_help", "group_id": "demo-code_help-03", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-03-1", "text": "Wyjaśnij działanie pętli w tym kodzie", "label": "code_help", "group_id": "demo-code_help-03", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-04-0", "text": "Zrefaktoryzuj ten kod JavaScript", "label": "code_help", "group_id": "demo-code_help-04", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-04-1", "text": "Uprość implementację funkcji JavaScript", "label": "code_help", "group_id": "demo-code_help-04", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-05-0", "text": "Dlaczego ten program nie działa?", "label": "code_help", "group_id": "demo-code_help-05", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-code_help-05-1", "text": "Pomóż debugować program", "label": "code_help", "group_id": "demo-code_help-05", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-00-0", "text": "Jaka jest pogoda jutro?", "label": "other", "group_id": "demo-other-00", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-00-1", "text": "Czy jutro będzie padał deszcz?", "label": "other", "group_id": "demo-other-00", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-01-0", "text": "Ułóż plan wycieczki do Kioto", "label": "other", "group_id": "demo-other-01", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-01-1", "text": "Zaproponuj trasę zwiedzania Kioto", "label": "other", "group_id": "demo-other-01", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-02-0", "text": "Przetłumacz mail i napisz odpowiedź", "label": "other", "group_id": "demo-other-02", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-02-1", "text": "Przełóż wiadomość, a potem przygotuj odpowiedź", "label": "other", "group_id": "demo-other-02", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-03-0", "text": "Streść raport i przetłumacz podsumowanie", "label": "other", "group_id": "demo-other-03", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-03-1", "text": "Zrób streszczenie, a następnie tłumaczenie raportu", "label": "other", "group_id": "demo-other-03", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-04-0", "text": "Cześć, co słychać?", "label": "other", "group_id": "demo-other-04", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-04-1", "text": "Hej, jak się masz?", "label": "other", "group_id": "demo-other-04", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-05-0", "text": "Nie tłumacz tekstu, tylko wymyśl tytuł", "label": "other", "group_id": "demo-other-05", "source": "synthetic-codex-demo-v1"}
+{"id": "demo-other-05-1", "text": "Zamiast tłumaczenia zaproponuj tytuł", "label": "other", "group_id": "demo-other-05", "source": "synthetic-codex-demo-v1"}

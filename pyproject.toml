@@ -1,0 +1,55 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "windup-gate"
+version = "0.1.0"
+description = "Local intent classifiers before generative models."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "GPL-3.0-or-later" }
+keywords = ["nlp", "classification", "machine-learning", "education"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Education",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["scikit-learn>=1.6,<2", "joblib>=1.4,<2"]
+
+[project.urls]
+Repository = "https://github.com/MoviaQ/windup-gate"
+
+[project.optional-dependencies]
+language = ["torch>=2.6,<3", "ftfy>=6.3,<7"]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "pytest-cov>=6,<8", "ruff>=0.11,<1", "pyright>=1.1,<2"]
+
+[project.scripts]
+windup-gate = "windup_gate.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/windup_gate"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pyright]
+include = ["src"]
+venvPath = "."
+venv = ".venv"
+typeCheckingMode = "basic"
+pythonVersion = "3.11"

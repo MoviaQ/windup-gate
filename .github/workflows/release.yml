@@ -1,0 +1,78 @@
+# WindUp Gate — dostarczanie paczek z wydania GitHub.
+#
+# Uruchamiane TYLKO po opublikowaniu wydania (release: published).
+# Najpierw weryfikuje tak samo jak CI (pytest, ruff, pyright) i buduje,
+# potem dokleja sdist i wheel DO TEGO SAMEGO wydania. Bez PyPI, bez sekretów, bez wdrożeń na serwery.
+# Jedyny zapis to dołączenie plików do wydania (job attach, contents: write).
+
+name: Release
+
+on:
+  release:
+    types: [published]
+
+permissions: {}
+
+jobs:
+  build:
+    name: test-and-build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.11"
+
+      - name: Install uv
+        run: pip install "uv==0.13.0"
+
+      - name: Sync dependencies (locked)
+        run: uv sync --locked
+
+      - name: Pytest with coverage >= 80%
+        run: >-
+          .venv/bin/python -m pytest -q
+          --cov=windup_gate --cov-report=term-missing --cov-fail-under=80
+
+      - name: Ruff check
+        run: .venv/bin/ruff check src tests
+
+      - name: Ruff format check
+        run: .venv/bin/ruff format --check src tests
+
+      - name: Pyright
+        run: .venv/bin/pyright
+
+      - name: Build sdist and wheel
+        run: uv build
+
+      - name: Upload dist as artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: dist
+          path: dist/*
+
+  attach:
+    name: attach-to-release
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download dist artifact
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: dist
+          path: dist
+
+      - name: Attach sdist and wheel to this release
+        run: gh release upload "$TAG_NAME" dist/* --clobber
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TAG_NAME: ${{ github.event.release.tag_name }}
